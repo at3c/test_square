@@ -26,6 +26,7 @@
       border: 2px solid white;
       text-align: center;
       vertical-align: middle;
+      outline: none !important;
     }
 
     .b-square_button_top {
@@ -36,4 +37,12 @@
         left: 2px;
     }
 
+    .b-square i:hover {
+        transition: ease-in-out .5s;
+        opacity: 0.5;
+    }
 
+    .b-square i:active {        
+        opacity: 1;
+        transition: .1s;
+    }
