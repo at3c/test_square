@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+/*Color*/
+.bg_color_yellow {
+    background: #F3A500;
+}
+
+.bg_color_red {
+    background: #B20000;
+}
+
+.text_color {
+  color: #FFFFFF;
+}
+/*end Color*/
+
+/*Position*/
+.position_absolut {
+  position: absolute ;
+}
+
+.position_relative {
+  position: relative;
+}
+
+.position_top {
+  bottom: 100%;  
+}
+
+.position_bottom {
+  top: 100%;
+}
+
+.position_left {
+  right: 100%;
+}
+
+.position_right {
+  left: 100%;
+}
+/*end Position*/
